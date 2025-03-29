@@ -9,4 +9,4 @@ sim:
 		vvp -n testResult.out
 
 clean:
-		rm -rf *.log  csrc  simv*  *.key *.vpd  DVEfiles coverage *.vdb output.txt
+		rm -rf testResult.out output.txt
